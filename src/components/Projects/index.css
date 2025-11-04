@@ -1,6 +1,11 @@
 .projects-container{
      padding: 50px;
 }
+@media screen and (max-width : 576px) {
+     .projects-container{
+     padding: 20px;
+}
+} 
 .main-heading{
         font-family: 'Exo', sans-serif;
         font-size: 40px;
@@ -55,7 +60,7 @@
       width: 400px;
       list-style-type: none;
       padding: 15px;
-      margin-bottom: 50px;
+      margin-bottom: 80px;
       border-radius: 10px;
       background-color: #1e1e1e;
       box-shadow: 0px 4px 6px 0px #C084FC ;
