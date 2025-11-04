@@ -1,0 +1,128 @@
+.skills-container{
+   padding: 50px;
+ 
+}
+@media screen and (max-width : 576px) {
+      .skills-container{
+         padding: 20px;
+}
+} 
+
+.skills-ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.skills-li{
+      height: 300px;
+      list-style-type: none;
+      margin-left: 25px;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+} 
+@media screen and (max-width : 576px) {
+     .skills-li{
+      height: 230px;
+        margin-left: 50px;
+      margin-bottom: 20px;
+} 
+}
+.skills-li:hover{
+      background-color: #181818;
+      box-shadow: 0px 14px 16px 0px #bfbfbfbf;
+}
+.main-heading{
+        font-family: 'Exo', sans-serif;
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 20px;
+}
+@media screen and (max-width : 576px) {
+    .main-heading{
+        font-size: 35px;
+}
+}
+.skill-heading{
+        font-family: 'Bungee', cursive;
+        font-size: 30px;
+        color: #A855F7;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        font-weight: bold;
+}
+@media screen and (max-width : 576px) {
+    .skill-heading{
+        font-size: 28px;
+}
+}
+.span-skill-heading{ 
+  text-shadow: 
+    0 0 30px #A855F7,  
+
+    0 0 15px #000000;  
+       
+}
+.skills-icons{
+     font-size: 200px;
+}
+@media screen and (max-width : 576px) {
+    .skills-icons{
+     font-size: 150px;
+}
+}
+.skill-name{
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        margin-top: 10px;
+        text-align: center;
+}
+.link{
+     text-decoration: none;
+     color: rgb(6, 171, 236);
+     margin-right: 10px;
+     font-size: 18px;
+}
+.link:hover{
+    text-decoration: underline;
+     color: #C084FC;
+}
+.link-flex-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      margin-bottom: 0px;
+}
+
+.react-icon {
+  font-size: 200px;
+
+}
+@media screen and (max-width : 576px) {
+    .react-icon{
+     font-size: 150px;
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-icon:hover {
+    animation: react-icon-spin infinite 20s linear;
+  }
+}
+
+@keyframes react-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,71 @@
+
+.header-container{
+      background-color: #181818;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      position: fixed;
+      top: 20px;
+      right: 0;
+      left: 0;
+      z-index: 1030;  
+      box-shadow: 0px 4px 16px 0px #8B5CF6;
+} 
+.logo{
+     
+   font-family: 'Exo', sans-serif;
+      font-size: 50px;
+      font-weight: bold;    
+      margin-left: 30px;
+}
+.logo-span-d{
+      color:#8B5CF6;
+   
+}
+.logo-span-d:hover{
+     color: #ffffff;
+   
+}
+.logo-span-p{
+     color: #ffffff;
+       text-shadow: 0 0 10px #bfbfbfbf;
+      
+}
+.logo-span-p:hover{
+     color: #8B5CF6;  
+}
+.nav-contaier{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        list-style-type: none;
+        margin-right: 30px;
+}
+@media screen and (max-width : 576px) {
+      .nav-contaier{
+         display: none;
+} 
+}
+.nav-list{
+      list-style-type: none;
+      margin-left: 15px;
+      cursor: pointer;
+}
+.nativeRoute{
+     text-decoration: none;
+     color: inherit;
+}
+.nav-features{
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+}
+
+.nav-features:hover{
+    color:#8B5CF6;
+    font-weight: bold;
+}
+ 
