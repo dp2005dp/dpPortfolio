@@ -31,8 +31,6 @@ const webProjectsList = [
         link: "https://dp2005dp.github.io/cookBook/",
         imageUrl : "https://github.com/user-attachments/assets/3c1afa3d-37e3-47b4-b27c-547c29438284",
         gitHubLink: "https://github.com/dp2005dp/cookBook",
-        userName : "rahul",
-        password : "rahul@2021"
     },
     {   id : 3,
         title: "Jobby App",

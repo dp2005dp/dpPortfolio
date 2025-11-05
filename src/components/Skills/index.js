@@ -50,7 +50,7 @@ const Skills = () => {
                 </li>
                 <li  className="skills-li" data-aos="zoom-in-left" onMouseEnter={() => cardTrigger("1")} onMouseLeave={cardTriggerLeave}>
                        <IoLogoCss3  className="skills-icons" color="#1572B6" />
-                        <p className="skill-name">css</p>
+                        <p className="skill-name">Css</p>
                          {
                             cardId === "1" &&  <div className="link-flex-container">
                             <a href ="https://certificates.ccbp.in/intensive/static-website?id=KUETPSSQTM" target="_blank"  rel="noopener noreferrer" className="link">View Certificate</a>
