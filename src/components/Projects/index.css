@@ -72,13 +72,16 @@
 }  
 @media screen and (min-width :768px) and (max-width : 1024px)   {
         .projects-li{
+          width: 300px;
           margin-left: 2px;
+          margin-top: 20px;
+          margin-bottom: 10px;
         }
 }
 .image{
      height: 300px;
      width: 400px;
-        border-radius: 10px;
+     border-radius: 10px;
 }
 @media screen and (max-width : 576px) {
   .image{
@@ -86,6 +89,12 @@
      width: 250px;
 }
 }  
+@media screen and (min-width :768px) and (max-width : 1024px)   {
+        .image{
+     height: 250px;
+     width: 300px;
+}
+}
 .title{
      color: #C084FC;;
      font-family: "Roboto", sans-serif;
