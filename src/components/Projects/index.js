@@ -31,6 +31,8 @@ const webProjectsList = [
         link: "https://dp2005dp.github.io/cookBook/",
         imageUrl : "https://github.com/user-attachments/assets/3c1afa3d-37e3-47b4-b27c-547c29438284",
         gitHubLink: "https://github.com/dp2005dp/cookBook",
+        userName : "",
+        password : "",
     },
     {   id : 3,
         title: "Jobby App",
@@ -47,7 +49,7 @@ const webProjectsList = [
         link: "https://dp2005dp.github.io/appStore/",
         imageUrl : "https://github.com/user-attachments/assets/f266319f-9733-411d-9a4a-e2220f7373c8",
         gitHubLink: "https://github.com/dp2005dp/appStore",
-         userName : "",
+        userName : "",
         password : "",
     },
 ]
