@@ -44,7 +44,7 @@
         list-style-type: none;
         margin-right: 30px;
 }
-@media screen and (max-width : 576px) {
+@media screen and (max-width : 767px) {
       .nav-contaier{
          display: none;
 } 
