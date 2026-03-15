@@ -36,7 +36,7 @@ const About = () =>  {
            </div>
            <div className="profile-order">
               <img src="https://res.cloudinary.com/djcrncwbk/image/upload/e_background_removal/f_png/v1762269593/WhatsApp_Image_2025-11-04_at_8.48.23_PM_zgovhr.jpg" alt="developer durgaprasad" className="profile-pik"/>
-             </div>
+           </div>
      </div>
      </div>
 )
